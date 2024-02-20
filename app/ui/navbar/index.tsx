@@ -24,7 +24,9 @@ const Navbar = () => {
                 </Link>
                 <div className="hidden md:flex items-center gap-[11px]">
                     <PhoneIcon fill="white" width={17} height={17} />
-                    <p className="font-bold text-white">1 (302) 316-5995</p>
+                    <p className="font-bold text-white text-base lg:text-lg">
+                        1 (302) 316-5995
+                    </p>
                 </div>
             </div>
         </nav>

@@ -9,7 +9,7 @@ const AdIntro = () => {
                 Only you, only now
             </p>
             <Image src="/flower.png" width={47} height={43} alt="flower" />
-            <p className="font-semibold text-center text-xl md:text-[27px] leading-6 md:leading-[33px]">
+            <p className="font-semibold text-center text-xl md:text-[27px] leading-6 md:leading-[33px] px-2 lg:px-0">
                 Introducing an exclusive
                 <UnderlineBold className="text-mediumturquoise">
                     VIP parenting community

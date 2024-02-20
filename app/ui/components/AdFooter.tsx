@@ -10,7 +10,7 @@ const AdFooter = () => {
     return (
         <>
             <div className="flex justify-between mt-3 max-w-[375px] mx-auto">
-                <Image src="/Paypal.png" alt="paypal" width={66} height={16} />
+                <Image src="/paypal.png" alt="paypal" width={66} height={16} />
                 <Image src="/visa.png" alt="visa" width={44} height={34} />
                 <Image
                     src="/americanExpress.png"
