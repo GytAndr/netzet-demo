@@ -1,6 +1,10 @@
 import React from 'react';
+import { Inter } from 'next/font/google';
+import cx from 'classnames';
 
 import { timeUnit } from '@/app/types/counter';
+
+// const inter = Inter({ subsets: ['latin'] });
 
 const CounterTimeBox = (unit: timeUnit) => {
     const { name, value } = unit;
@@ -10,7 +14,7 @@ const CounterTimeBox = (unit: timeUnit) => {
             <p className="font-extrabold leading-5 lg:leading-5 lg:text-xl">
                 {value}
             </p>
-            <p className="uppercase text-[6px] lg:text-[7px]">{name}</p>
+            <p className={cx('uppercase text-[6px] lg:text-[7px]')}>{name}</p>
         </div>
     );
 };

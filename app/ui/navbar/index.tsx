@@ -12,6 +12,7 @@ const Navbar = () => {
                     className="hidden md:block"
                     src="/Parenting_leader_logo.png"
                     alt="logo"
+                    quality={100}
                     width={158}
                     height={42}
                 />
