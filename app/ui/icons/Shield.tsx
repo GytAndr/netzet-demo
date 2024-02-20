@@ -1,6 +1,7 @@
 const Shield = ({ width = 16, height = 20, fill = '#05B133' }) => {
     return (
         <svg
+            className="flex-shrink-0"
             width={width}
             height={height}
             viewBox="0 0 16 20"

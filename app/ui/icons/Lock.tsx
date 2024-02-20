@@ -1,6 +1,7 @@
 const Lock = ({ width = 16, height = 17, fill = '#A6A6A6' }) => {
     return (
         <svg
+            className="flex-shrink-0"
             width={width}
             height={height}
             viewBox="0 0 16 17"

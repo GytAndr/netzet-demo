@@ -10,11 +10,11 @@ const list = [
 
 const AdvantagesList = () => {
     return (
-        <div className="flex flex-col gap-[19px] mt-[19px] mb-[18px]">
+        <div className="flex flex-col gap-[19px] mb-[18px]">
             {list.map((point) => (
-                <div key={point} className="flex gap-[15px]">
+                <div key={point} className="flex gap-[15px] items-center">
                     <CircleCheck />
-                    <p>{point}</p>
+                    <p className="lg:text-[23px] font-semibold">{point}</p>
                 </div>
             ))}
         </div>

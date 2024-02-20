@@ -18,7 +18,7 @@ const Navbar = () => {
                 />
                 <Counter />
                 <Link href="#">
-                    <button className="font-extrabold py-[9px] px-[25px] bg-islamic-green rounded-[5px] uppercase leading-[13px] text-[13px] lg:text-base">
+                    <button className="font-extrabold py-[9px] px-[25px] bg-islamic-green rounded-[5px] uppercase leading-[13px] text-[10px] xs:text-[13px] lg:text-base">
                         Accept the Challange
                     </button>
                 </Link>

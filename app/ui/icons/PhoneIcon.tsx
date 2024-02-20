@@ -1,6 +1,7 @@
 const PhoneIcon = ({ fill = 'white', width = 17, height = 17 }) => {
     return (
         <svg
+            className="flex-shrink-0"
             width={width}
             height={height}
             viewBox="0 0 17 17"
